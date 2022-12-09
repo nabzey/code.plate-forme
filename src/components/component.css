@@ -1,0 +1,104 @@
+/* La partie Sidebar */
+.sidebar {
+  background-color: #056b6b;
+  height: 100vh;
+  width: 18%;
+  border-right: 2px solid white;
+}
+
+.top {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.bottom {
+  margin: 20px 10px;
+  padding: 10px 0;
+}
+
+ul {
+  list-style: none;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+li {
+  padding: 8px 5px;
+  margin: 8px 0;
+}
+
+li:hover {
+  background-color: darkslategray;
+}
+
+.logo {
+  font-size: 21px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+/* La partie navbar */
+.navbar {
+  width: 100%;
+  background-color: #056b6b;
+  height: 70px;
+  border-bottom: 2px solid whitesmoke;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  justify-content: space-between;
+}
+
+.nav-search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid whitesmoke;
+}
+
+.nav-search-box input {
+  padding: 10px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+}
+
+.nav-search-box input::placeholder {
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+.icon {
+  color: whitesmoke;
+}
+
+.admin-nav-menu ul {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  width: 50px;
+}
+
+.admin-nav-menu ul li {
+  margin-left: 30px;
+  display: flex;
+}
+
+.notif-count {
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main content */

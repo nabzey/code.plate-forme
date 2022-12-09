@@ -1,0 +1,20 @@
+.widget {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: gainsboro;
+  border-radius: 15px;
+}
+
+.right-side img {
+  width: 100px;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
